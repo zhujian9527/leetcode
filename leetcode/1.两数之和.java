@@ -1,4 +1,4 @@
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+package leetcode;
 
 /*
  * @lc app=leetcode.cn id=1 lang=java
@@ -9,7 +9,7 @@ import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 // @lc code=start
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-            System.out.println("hello");
+
     }
 }
 // @lc code=end

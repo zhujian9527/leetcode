@@ -27,7 +27,7 @@ class Solution {
         2. 分支 2-2-3 和 分支 2-3-2其实是同一个解，这里要排序
         **/
         if (sum(temper) == target){
-            List list =new ArrayList<>(temper);
+            List<Integer> list =new ArrayList<>(temper);
             Collections.sort(list);
             if(!res.contains(list)){
                 res.add(list);

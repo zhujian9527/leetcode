@@ -55,19 +55,7 @@ class Solution {
                 map.put(c, count);
             }
         }
-        // for(int i= 0 ; i<nums.length ;i++){
-        //     // 可选
-        //     int c= nums[i];
-        //     int count =map.get(c);
-        //     if(count>0){
-        //         temper.add(c);
-        //         map.put(c, count--);
-        //         dfs(nums, res, temper, map);
-
-        //         temper.remove(temper.size()-1);
-        //         map.put(c, count+1);
-        //     }
-        // }
+        
     }
 }
 // @lc code=end
